@@ -11,7 +11,7 @@ mkdir ~/codechef ~/codeforces ~/spoj ~/hackerearth ~/topcoder ~/google ~/books ~
 sudo apt install wget
 wget https://github.com/dj3500/hightail/releases/download/v0.9.7/Hightail-v0.9.7.jar ~/codeforces
 wget http://www.topcoder.com/contest/arena/ContestAppletProd.jnlp ~/topcoder
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb ~/Downloads
-sudo dpkg -i ~/Downloads/g*.deb
-rm ~/Downloads/g*.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i ~/g*.deb
+rm ~/g*.deb
 sudo apt install -f
